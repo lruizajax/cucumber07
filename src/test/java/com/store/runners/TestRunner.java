@@ -17,7 +17,7 @@ import io.cucumber.testng.CucumberOptions;
 				"rerun:target/failedrerun.txt",
 				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
 				"io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"},
-		tags = "@Checkout",
+		tags = "@Login",
 		monochrome = false,
 		dryRun = false,
 		publish = true
